@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/jseto/typescript-jest-react-sass-testing-library-boilerplate#readme",
   "devDependencies": {
+    "@entropic-bond/firebase": "^1.5.4",
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -30,6 +31,7 @@
     "@types/react-dom": "^17.0.11",
     "css-loader": "^6.5.1",
     "desvg-loader": "^0.1.0",
+    "entropic-bond": "^1.20.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.4.7",
