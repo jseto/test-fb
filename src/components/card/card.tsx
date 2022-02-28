@@ -8,7 +8,7 @@ interface CardProps {
   controller: ShopController
 }
 
-export class Card extends React.Component <CardProps> {
+export class Card extends Component <CardProps> {
   componentDidMount(): void {
     const { product } = this.props
 

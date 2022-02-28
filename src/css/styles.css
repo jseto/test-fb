@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin:1rem;
+  text-align: center;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,
+  minmax(12rem, 17rem));
+  gap: 2rem;
+  justify-content: center;
+}
+.card {
+  margin: 2.5rem 1rem 1rem;
+  overflow: hidden;
+  box-shadow: 0 2px 20px gray;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 200ms ease-in;
+
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.card__image {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+.card__title {
+  padding: 1rem;
+}
+.card__description {
+  padding: 0 1rem;
+  text-align: center;
+}
+.card__btn {
+  padding: 0,5rem;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem;
+  border: 2px solid currentColor;
+  color: rgb(252, 179, 146);
+  border-radius: 22px;
+  transition: 200ms ease-in, color 200ms ease-in;
+}
+
+
+.centreText {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.textContent {
+    text-align: center;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+
+
+ 
+
+
+ button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+ button:hover,
+ button:active {
+    background-color: #01395a;
+    border-color: #01255a;
+    color: white;
+  }
+  
+ .button--alt {
+    color: #8a2b06;
+  }
+
+
+Form {
+    text-align: center;
+    margin: 60px;
+    
+}
